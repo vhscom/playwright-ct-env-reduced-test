@@ -7,7 +7,8 @@ const config: PlaywrightTestConfig = {
 		ctViteConfig: {
 			resolve: {
 				alias: {
-					$lib: 'src/lib'
+					$lib: 'src/lib',
+					$environment: 'src/variable.ts'
 				}
 			}
 		}
